@@ -1,0 +1,2 @@
+class EstuaryException(Exception):
+    pass

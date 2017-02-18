@@ -1,0 +1,28 @@
+Begin 
+Installing virtualenv... 
+Requirement already satisfied (use --upgrade to upgrade): virtualenv in c:\python\python3.5.2\lib\site-packages
+Creating new virtualenv instance... 
+Using base prefix 'c:\\python\\python3.5.2'
+New python executable in C:\Python\Env\pa-estuary\Scripts\python.exe
+Installing setuptools, pip, wheel...done.
+Activating new virtualenv instance... 
+Installing Python dependencies... 
+Collecting boto3 (from -r requirements.txt (line 1))
+  Downloading boto3-1.4.4-py2.py3-none-any.whl (127kB)
+Requirement already satisfied: pandas==0.19.2 in c:\python\env\pa-estuary\lib\site-packages (from -r requirements.txt (line 2))
+Collecting s3transfer<0.2.0,>=0.1.10 (from boto3->-r requirements.txt (line 1))
+  Downloading s3transfer-0.1.10-py2.py3-none-any.whl (54kB)
+Collecting botocore<1.6.0,>=1.5.0 (from boto3->-r requirements.txt (line 1))
+  Downloading botocore-1.5.10-py2.py3-none-any.whl (3.3MB)
+Collecting jmespath<1.0.0,>=0.7.1 (from boto3->-r requirements.txt (line 1))
+  Downloading jmespath-0.9.1-py2.py3-none-any.whl
+Requirement already satisfied: numpy>=1.7.0 in c:\python\env\pa-estuary\lib\site-packages (from pandas==0.19.2->-r requirements.txt (line 2))
+Requirement already satisfied: pytz>=2011k in c:\python\env\pa-estuary\lib\site-packages (from pandas==0.19.2->-r requirements.txt (line 2))
+Requirement already satisfied: python-dateutil>=2 in c:\python\env\pa-estuary\lib\site-packages (from pandas==0.19.2->-r requirements.txt (line 2))
+Collecting docutils>=0.10 (from botocore<1.6.0,>=1.5.0->boto3->-r requirements.txt (line 1))
+  Downloading docutils-0.13.1-py3-none-any.whl (536kB)
+Requirement already satisfied: six>=1.5 in c:\python\env\pa-estuary\lib\site-packages (from python-dateutil>=2->pandas==0.19.2->-r requirements.txt (line 2))
+Installing collected packages: docutils, jmespath, botocore, s3transfer, boto3
+Successfully installed boto3-1.4.4 botocore-1.5.10 docutils-0.13.1 jmespath-0.9.1 s3transfer-0.1.10
+Verifying dependencies...
+End 
